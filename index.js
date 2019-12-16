@@ -1,3 +1,5 @@
+// zmiany dla pr
+
 const inputA = document.getElementById('a');
 const inputB = document.getElementById('b');
 const inputC = document.getElementById('c');
