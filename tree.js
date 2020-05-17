@@ -5,8 +5,8 @@ let givenNumber = readline.question("// Type a number ");
 let x = 1;
 let y = 1;
 
-let spacesForStar = (givenNumber * 6 - 4) / 2;
 const spacesForHash = (givenNumber * 6 - 4) / 2;
+let spacesForStar = spacesForHash;
 
 while (y < givenNumber) {
 
