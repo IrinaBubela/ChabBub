@@ -1,11 +1,22 @@
 {
   "name": "helpme",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaBubela/ChabBub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IrinaBubela/ChabBub/issues"
+  },
+  "homepage": "https://github.com/IrinaBubela/ChabBub#readme",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
