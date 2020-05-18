@@ -16,7 +16,7 @@ function containsOnlyFruits(arr) {
 }
 
 
-function containsOnlyFruits(arr) {
+function hasAtLeastOneFruit(arr) {
     if (arr.length < 1) {
         return false;
     }
@@ -30,6 +30,13 @@ function containsOnlyFruits(arr) {
 console.log(containsOnlyFruits(["apple", "orange", "orange"]));
 console.log(containsOnlyFruits(["apple", "orange", "cucumber"]));
 console.log(containsOnlyFruits([]));
+
+
+
+console.log(hasAtLeastOneFruit(["apple", "orange", "orange"]));
+console.log(hasAtLeastOneFruit(["apple", "orange", "cucumber"]));
+console.log(hasAtLeastOneFruit([]));
+
 
 
 
